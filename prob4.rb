@@ -8,7 +8,7 @@ begin
 
   File.open(output_file, 'w') do |file|
     file.write(reversed_content)
-  end
+    end
 
   puts "Successfully reversed content and wrote to #{output_file}"
 

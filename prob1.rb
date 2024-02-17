@@ -2,13 +2,13 @@ module HTMLGenerator
     def tag(name, content)
       "<#{name}>#{content}</#{name}>"
     end
-  end
+end
   
-  include HTMLGenerator
+include HTMLGenerator
   
-  paragraph = tag :p, "This is a paragraph"
-  header = tag :h1, "This is a header"
+paragraph = tag :p, "This is a paragraph"
+header = tag :h1, "This is a header"
   
-  puts paragraph
-  puts header
+puts paragraph
+puts header
   

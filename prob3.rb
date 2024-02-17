@@ -6,8 +6,8 @@ def safe_divide(dividend, divisor)
     else
       return result
     end
-  end
+end
   
-  puts safe_divide(10, 2)  # Output: 5
-  puts safe_divide(5, 0)  # Output: Error: Division by zero
+puts safe_divide(10, 2) 
+puts safe_divide(5, 0)  
   
